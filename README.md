@@ -27,8 +27,23 @@ User authentication and document storage are managed using **localStorage**, ens
 
 ## 📂 Folder Structure
 
-document-management-app/ │── public/ │── src/ │ ├── components/ │ │ ├── Navbar.js │ │ ├── Login.js │ │ ├── Register.js │ │ ├── Dashboard.js │ │ ├── DocumentForm.js │ │ ├── DocumentDetails.js │ ├── styles/ │ │ ├── styles.css │ ├── App.js │ ├── index.js │── .gitignore │── package.json │── README.md
-
+document-management-app/
+│── public/
+│── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── Login.js
+│   │   ├── Register.js
+│   │   ├── Dashboard.js
+│   │   ├── DocumentForm.js
+│   │   ├── DocumentDetails.js
+│   ├── styles/
+│   │   ├── styles.css
+│   ├── App.js
+│   ├── index.js
+│── .gitignore
+│── package.json
+│── README.md
 
 
 ---
