@@ -1,0 +1,94 @@
+/* 🔥 Centered Form Styling */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+.auth-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.auth-box:hover {
+    transform: scale(1.02);
+}
+
+/* 🎭 Input Fields */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #6e8efb;
+    outline: none;
+}
+
+/* 🔒 Password Hint */
+.password-hint {
+    font-size: 12px;
+    color: #666;
+}
+
+/* 🚀 Action Button */
+.btn-auth {
+    width: 100%;
+    padding: 10px;
+    background: #6e8efb;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-auth:hover {
+    background: #5a7bf1;
+    transform: scale(1.05);
+}
+
+/* 🔥 Error & Success Messages */
+.error-message, .success-message {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+}
+
+.success-message {
+    color: green;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 480px) {
+    .auth-box {
+        width: 90%;
+        padding: 20px;
+    }
+}

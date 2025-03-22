@@ -1,0 +1,78 @@
+/* Document Form Styling */
+.document-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Buttons */
+.submit-btn {
+    background: #28a745;
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+.submit-btn:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+
+/* Slide-in Animation */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .document-container {
+        width: 90%;
+    }
+}
